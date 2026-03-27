@@ -3,11 +3,7 @@ import random
 boa = ['_'] * 9
 
 def board():
-    print(boa[0], boa[1], boa[2])
-    print(boa[3], boa[4], boa[5])
-    print(boa[6], boa[7], boa[8])
 
-def youturn():
     choice = int(input('숫자로 입력(1~9): '))
 
     if choice == 1 and boa[0] == '_':
